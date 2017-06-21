@@ -10,4 +10,11 @@ class ApplicationController < Sinatra::Base
   get '/' do
     erb :index
   end
+  post '/dankmemes' do
+    @caption_input = params["caption"]
+    @answer = params["topic"]
+    @pixs = pichoose(@answer)
+    erb :results
+  end
 end
+

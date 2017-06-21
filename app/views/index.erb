@@ -1,1 +1,21 @@
-<h1> This is a view </h1>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/meme_style.css">
+    </head>
+    
+    <body>
+        <h1> Meme Machine</h1>
+        <h3> Choose a Topic:</h3>
+        <div class = "input_list">
+        <form method= "post" action="/dankmemes">
+            <input type="radio" name="topic" value ="politics">Politics<br>
+            <input type="radio" name="topic" value ="movies">Movies<br>
+            <input type="radio" name="topic" value ="classic">Classic<br>
+            <h3>Write your Caption:</h3>
+            <input type ="text" name="caption">
+            <input type="submit" value = "Meme It!">
+        </form>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,19 @@
+
+h1, h2, h3, .input_list, input{
+    font-family: cursive;
+    color: red;
+    text-align: center;
+}
+
+body {
+   background-color :lightgreen;
+}
+
+img {
+    height:500px; 
+    margin: auto;
+}
+.image {
+   text-align: center; 
+}
+}
